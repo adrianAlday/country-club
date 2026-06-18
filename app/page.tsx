@@ -130,8 +130,6 @@ const HomePage = async () => {
           </Link>
         </div>
 
-        <div className="mt-8">Call clubhouse concierge for tee times.</div>
-
         <div className="mt-8">
           <div className="mt-2">Pool boy is looking for work.</div>
 
