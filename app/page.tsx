@@ -55,10 +55,10 @@ const HomePage = async () => {
     <main>
       <div className={`${libreBaskerville.className}`}>
         <div className="mt-4 flex justify-center">
-          <div className="italic flex">
+          <div className="flex">
             <div className="text-7xl">⛳</div>
 
-            <div className="ml-4">
+            <div className="ml-4 italic">
               <div className={"text-2xl"}>
                 <span className="text-3xl">C</span>OUNTRY{" "}
                 <span className="text-3xl">C</span>LUB
