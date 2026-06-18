@@ -103,15 +103,16 @@ const HomePage = async () => {
                     <Link
                       target="_blank"
                       href={`https://www.wunderground.com/hourly/us/md/baltimore/KMDBALTI500/date/${day.year.padStart(4, "0")}-${day.month.padStart(2, "0")}-${day.day.padStart(2, "0")}`}
-                      className="underline"
+                      className="underline hover:text-[rgb(252,227,0)] active:text-[rgb(252,227,0))]"
                     >
                       {day.month}/{day.day}
                     </Link>
                   </div>
 
                   <div className="">
-                    {day.participantCount} going, {day.availableCount} spot
+                    {day.availableCount} spot
                     {day.availableCount === 1 ? "" : "s"} left
+                    {day.availableCount && day.availableCount <= 5 ? "!" : ""}
                   </div>
                 </Fragment>
               ))}
@@ -138,7 +139,7 @@ const HomePage = async () => {
             Please keep me in mind and add me on LinkedIn.
           </div>
 
-          <div className="mt-2">
+          <div className="mt-4">
             <Link
               target="_blank"
               href={"https://www.linkedin.com/in/adrianalday"}
