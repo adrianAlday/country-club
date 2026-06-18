@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import LoadingWrapper from "./_components/LoadingWrapper";
 
 export const metadata: Metadata = {
   title: "",
@@ -12,7 +13,9 @@ type LayoutProps = {
 
 const Layout = ({ children }: Readonly<LayoutProps>) => (
   <html lang="en" className={"subpixel-antialiased"}>
-    <body>{children}</body>
+    <body>
+      <LoadingWrapper>{children}</LoadingWrapper>
+    </body>
   </html>
 );
 
