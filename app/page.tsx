@@ -54,7 +54,7 @@ const HomePage = async () => {
   return (
     <main>
       <div className={`${libreBaskerville.className}`}>
-        <div className="mt-4 flex justify-center">
+        <div className="mt-2 flex justify-center">
           <div className="flex">
             <div className="text-7xl">⛳</div>
 
@@ -80,12 +80,12 @@ const HomePage = async () => {
             paddingLeft: "calc((100vw - 100%) / 2)",
             paddingRight: "calc((100vw - 100%) / 2)",
           }}
-          className="mt-8 py-8 bg-[rgb(0,103,71)] text-[rgb(255,255,255)]"
+          className="mt-6 py-6 bg-[rgb(0,103,71)] text-[rgb(255,255,255)]"
         >
           <div className="">🏖️ Swim club availability:</div>
 
           <div
-            className="mt-8 grid gap-4"
+            className="mt-4 grid gap-4"
             style={{ gridTemplateColumns: "repeat(3, max-content)" }}
           >
             {processedData
@@ -124,7 +124,7 @@ const HomePage = async () => {
               "https://secure.rec1.com/MD/baltimore-md/catalog/index/b2d35a4538a1f7c7d2115f5730b98a6f?filter=c2VhcmNoPWNvdW50cnklMjBjbHViJTIwZGFpbHklMjBzd2lt"
             }
           >
-            <div className="mt-8 border border-[rgb(255,255,255)] rounded-4xl overflow-hidden w-full hover:border-[rgb(252,227,0)] hover:text-[rgb(252,227,0)] active:border-[rgb(252,227,0)] active:text-[rgb(252,227,0))] py-1 flex items-center justify-center transition-all duration-80 transition-discrete">
+            <div className="mt-4 border border-[rgb(255,255,255)] rounded-4xl overflow-hidden w-full hover:border-[rgb(252,227,0)] hover:text-[rgb(252,227,0)] active:border-[rgb(252,227,0)] active:text-[rgb(252,227,0))] py-1 flex items-center justify-center transition-all duration-80 transition-discrete">
               Sign Up
             </div>
           </Link>
@@ -134,7 +134,7 @@ const HomePage = async () => {
           <div className="mt-2">Pool boy is looking for work.</div>
 
           <div className="mt-2">
-            Please keep me in mind and add me on LinkedIn.
+            Please keep me in mind and also add me on LinkedIn!
           </div>
 
           <div className="mt-4">
@@ -143,7 +143,7 @@ const HomePage = async () => {
               href={"https://www.linkedin.com/in/adrianalday"}
             >
               <div className="border border-[rgb(0,103,71)] rounded-4xl overflow-hidden w-full hover:bg-[rgb(0,103,71)] hover:text-[rgb(252,227,0)] active:bg-[rgb(0,103,71)] active:text-[rgb(252,227,0)] py-1 flex items-center justify-center transition-all duration-80 transition-discrete">
-                🙏 🙏 Thank you!!
+                🙏 🙏 Thank you!
               </div>
             </Link>
           </div>
