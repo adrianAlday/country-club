@@ -130,7 +130,7 @@ const HomePage = async () => {
           </Link>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-6">
           <div className="mt-2">Pool boy is looking for work.</div>
 
           <div className="mt-2">
