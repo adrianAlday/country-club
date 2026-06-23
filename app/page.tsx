@@ -125,7 +125,7 @@ const HomePage = async () => {
             }
           >
             <div className="mt-4 border border-[rgb(255,255,255)] rounded-4xl overflow-hidden w-full hover:border-[rgb(252,227,0)] hover:text-[rgb(252,227,0)] active:border-[rgb(252,227,0)] active:text-[rgb(252,227,0))] py-1 flex items-center justify-center transition-all duration-80 transition-discrete">
-              Sign Up country club
+              Sign Up
             </div>
           </Link>
         </div>
