@@ -121,7 +121,7 @@ const HomePage = async () => {
           <Link
             target="_blank"
             href={
-              "https://secure.rec1.com/MD/baltimore-md/catalog/index/b2d35a4538a1f7c7d2115f5730b98a6f?filter=c2VhcmNoPWNvdW50cnklMjBjbHViJTIwZGFpbHklMjBzd2lt"
+              "https://secure.rec1.com/MD/baltimore-md/catalog/index/b2d35a4538a1f7c7d2115f5730b98a6f?filter=c2VhcmNoPWNvdW50cnklMjBjbHViJTIwZGFpbHklMjBzd2lt#:~:text=country%20club%20daily%20swim%20schedule"
             }
           >
             <div className="mt-4 border border-[rgb(255,255,255)] rounded-4xl overflow-hidden w-full hover:border-[rgb(252,227,0)] hover:text-[rgb(252,227,0)] active:border-[rgb(252,227,0)] active:text-[rgb(252,227,0))] py-1 flex items-center justify-center transition-all duration-80 transition-discrete">
